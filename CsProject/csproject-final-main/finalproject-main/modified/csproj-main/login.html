@@ -1,0 +1,54 @@
+<!doctype  html>
+
+    <head>
+        
+        <link rel="stylesheet" href="C:\Users\user\Desktop\cs project\csscheatsheet\login.css">
+    </head>
+    <body>
+    	<main>
+    		<div class="container.glass">
+             <div class=" cener">
+                <h2><b>Login</b></h2>
+                <form action="login" method="post">
+                    {% csrf_token %}
+                    <div class="txt_field">
+                        
+                        <input type="text" id="UserName" name="UserName" required>
+                        <span></span>
+                        <label>UserName</label>
+                      </div>
+                    <div class="txt_field">
+                        
+                        <input type="password" id="PassWord" name="PassWord" required>
+                        <span></span>
+                        <label>PassWord</label>
+                    </div>
+
+                    <div class="txt_field">
+                        
+                        <input type="password" id="OTP" name="OTP" required>
+                        <span></span>
+                        <label>OTP</label>
+                    </div>
+                    <div class="pass">FORGOT PASSWORD</div>
+                        <input type="submit" value="sign in">
+                        
+                    <div class="signup_link">
+                    "create an account"
+                    <a href="signup">signup</a>
+                    </div>
+                            
+                            
+                    <div class="signup_link">
+                    "switch to admin?"
+                    <a href="admin/">admin</a>
+                    </div>
+                </form>
+
+             </div>
+         </div>
+    		
+    	</main>
+        
+    </body>
+</html>

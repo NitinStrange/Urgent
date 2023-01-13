@@ -1,0 +1,292 @@
+*{
+	
+	
+	padding: 0px;
+	margin: 0px;
+	background: ghostwhite;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+
+}
+.logo{
+	padding: 0;
+	position: relative;
+	left: 1100px;
+	background: transparent;
+	top: -120px;
+}
+
+.logo img{
+	
+height: 175px;
+width: 275px;
+position: relative;
+right: 1040px;
+background: transparent;
+
+	
+}
+ul{
+	top: 0;
+	left: 0;
+	height: 200px;
+
+
+}
+.cons{
+	position: relative;
+	left: 1000px;
+}
+
+.col-2{
+
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	text-align: right;
+	float: right;
+	clear: none;
+	text-decoration: none;
+	list-style: none;
+	 	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+.buttons{
+	display:flex;
+	right: 70px;
+  flex-direction:row;
+  align-items:center;
+  list-style: none;
+  padding-top: 20px;
+  background: transparent;
+	cursor: pointer;
+}
+.suges{
+	position: relative;
+	right: 20px;
+	background: transparent;
+	
+
+	   
+
+}
+.srs{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 15px;
+	right: 475px;
+	text-align: right;
+	float: right;
+	clear: none;
+	text-decoration: none;
+	list-style: none;
+ 	background: transparent;
+
+}
+
+
+a{
+	position: relative;
+	display: inline;
+	color:  black;
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: transparent;
+	margin: 10px;
+	
+
+	
+	
+}
+ 
+
+body{
+	 overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+.container3{
+	
+	background: #d9d9d9;
+	width: 100%;
+	height: 70px;
+	border-radius: 50px;
+
+}
+.searcj{
+	display: flex;
+	position: relative;
+	top: 19px;
+	
+ border-radius: 25px;
+	cursor: pointer;
+
+}
+.sear{
+	display: flex;
+	right: 100px;
+	position: relative;
+	top: 40px;
+	cursor: pointer;
+
+}
+
+form{
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     color: #a0d18c;
+     padding-left: 20px;
+}
+form input{
+  border: none;
+  outline: none;
+  width: 200px;
+  border-radius: 10px;
+
+
+
+}
+.cali{
+	background: transparent;
+	margin: 10px;
+	position: relative;
+	top: 19px;
+
+
+}
+.fa-cart-shopping{
+	
+	height: 15px;
+	width: 25px;
+	background: transparent;
+}
+.fa-heart{
+	height: 15px;
+	width: 25px;
+	background: transparent;
+
+}
+
+form .fa-magnifying-glass{
+  align-self: center;
+  padding: 15px 20px;
+  color: #777;
+}
+
+.sear{
+display: flex;
+	align-items: center;
+	position: absolute;
+	top: 32px;
+	
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	background:transparent;
+    }
+.container{
+padding-left:200px;
+padding-top:0 ;
+ 
+}
+.col-1{
+	position: relative;
+	height: 600px;
+	width: 300px;
+}
+.col-8{
+position: relative;
+top: -25px;
+left: 25px;
+display: inline-block;
+}
+.col-8 img{
+
+	height: 400px;
+	width: 500px;
+	
+}
+.yaaro {
+	display: flex;
+	flex-direction: row;
+	
+}
+.cont{
+
+position: relative;
+width: 900px;
+left: 100px;
+
+}
+.cont p{
+	font-size: 25px;
+}
+.btn{
+	position: relative;
+	top: 50px;
+}
+.btn a {
+  text-decoration: none;
+  list-style: none;
+  padding: 14px 16px;
+  background-color: #7F59B0;
+   border-radius: 25px ;
+   transition: 1s;
+   color: whitesmoke;
+   position: relative;
+   
+}
+.btn a:hover{
+  background: black;
+  
+  
+  color: wheat;
+
+
+}
+.inputBox{
+	position: relative;
+	top: 90px;
+}
+.rev h1{
+margin: 20px;
+
+
+}
+.col-4 img{
+	width: 190x;
+	height: 150px;
+	border-radius:5px ;
+
+}
+.col-4{
+	 align-items: center;
+	 text-align: center;
+	padding: 10px;
+	width: 200px;
+	margin-bottom: 50px ;
+	text-align: center;
+	background-color:whitesmoke;
+	transition: transform;
+	border-radius: 5px;
+}
+
+.sec{
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.prod h1{
+margin: 20px;
+
+
+}

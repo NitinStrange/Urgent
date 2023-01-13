@@ -1,0 +1,30 @@
+<!doctype  html>
+
+    <head>
+        
+        <link rel="stylesheet" href="C:\Users\user\Desktop\cs project\csscheatsheet\login.css">
+    </head>
+    <body>
+        <main>
+            <div class="container.glass">
+             <div class=" cener">
+                <h2><b>Enter email for OTP </b></h2>
+                <form action="OTP" method="post">
+                {% csrf_token %}
+                    <div class="txt_field">
+
+                        <input type="text" id="Email" name="Email" required>
+                        <span></span>
+                        <label>Email</label>
+
+
+                    
+                </form>
+
+             </div>
+         </div>
+            
+        </main>
+        
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype  html>
+
+    <head>
+        
+        <link rel="stylesheet" href="C:\Users\Nitin\Desktop\Csproj\CsProject\csproject-final-main\modified\csproj-main\LogCss.css">
+    </head>
+    <body>
+        <main>
+            <div class="container.glass">
+             <div class=" cener">
+                <h2><b>sign in</b></h2>
+                <form action="signin" method="post">
+                    {% csrf_token %}
+                    <div class="txt_field">
+                        
+                        <input type="text" id="UserName" name="UserName"  required>
+                        <span></span>
+                        <label>Username</label>
+                      </div>
+                    <div class="txt_field">
+                        
+                        <input type="password" id="PassWord" name="PassWord" required>
+                        <span></span>
+                        <label>password</label>
+                    </div>
+                    <div class="pass">FORGOT PASSWORD</div>
+                        <input type="submit" value="sign in">
+                    
+                    
+                    <div class="signup_link">
+                    "create an account"
+                    <a href="signup">signup</a>
+                    </div>
+                    
+                    
+                    <div class="signup_link">
+                    "switch to admin?"
+                    <a href="admin/">admin</a>
+                    </div>
+                </form>
+
+             </div>
+         </div>
+            
+        </main>
+        
+    </body>
+</html>
